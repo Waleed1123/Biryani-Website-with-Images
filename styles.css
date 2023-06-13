@@ -1,0 +1,43 @@
+* {
+  background-color: rgb(212, 199, 184);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+}
+
+h2 {
+  color: #0e2431;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  font-size: 18px;
+}
+.two-images {
+  display: flex;
+  justify-content:space-between ;
+}
+ol > li {
+  list-style-type: none;
+}
+ li > a {
+  text-decoration: none;
+  font-size: larger;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 25px;
+  cursor: pointer;
+  color: #000000;
+  text-align: center;
+ }
+ a:hover {
+  background-color: aliceblue;
+  color: black;
+ }
+ hr {
+  border: 2px solid brown;
+  line-height: 20px;
+ }
+ 
